@@ -1,1 +1,1 @@
-https://laniuscollurio-spb.github.io/zakrivayuschiy-teg-f/
+https://github.com/LaniusCollurio-SPb/zakrivayuschiy-teg-f
