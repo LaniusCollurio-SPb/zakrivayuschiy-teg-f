@@ -4,9 +4,9 @@
   --accent-font: 'PressStart2P';
   --card-title-font-weight: 715;
   --card-text-font-weight: 410;
-  --block-inline-size: clamp(375px, 50%, 700px);
+  --block-inline-size: clamp(375px, 70%, 700px);
   --dialog-inline-size: clamp(341px, 80%, 353px);
-  --button-block-inline-size: clamp(306px, 80%, 335px);
+  --button-block-inline-size: clamp(306px, 90%, 335px);
   --card-title-inline-padding: 10px;
   --card-title-block-padding: 4px;
   --card-text-inline-padding: 25px;
