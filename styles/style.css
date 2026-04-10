@@ -84,11 +84,14 @@
 .card__image-wrap {
   position: relative;
   aspect-ratio: 1 / 1;
+  overflow: hidden;
 }
 
 .card__image {
   display: block;
   inline-size: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .filter-saturation {
@@ -171,6 +174,7 @@
   padding-block: 0;
   transition: border 0.3s ease;
   block-size: 38px;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
@@ -179,9 +183,6 @@
 
 .card__icon-button:focus-visible {
   border-color: var(--accent-color);
-}
-
-.like-icon {
 }
 
 .contour {
@@ -254,6 +255,7 @@
   transition:
     box-shadow 0.3s ease,
     transform 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .button_action-style:focus {
